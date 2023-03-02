@@ -1,0 +1,215 @@
+{
+    "Cheesy Cheeeese": {
+        "navn": "Cheesy Cheeeese",
+        "kategori": "Hamburger",
+        "bilde": "CheesyCheeeese.png",
+        "pris": "78,-",
+        "beskrivelse": "Hva er bedre enn ost? Enda mer ost! Nyt en herlig Cheesy Cheese burger med 100% norsk storfekjøtt, nydelig ostesaus, ruccola og frisee salat, fersk tomat og 2 skiver deilig chaddar ost."
+    },
+    "Gourmet Grill Truffle": {
+        "navn": "Gourmet Grill Truffle",
+        "kategori": "Hamburger",
+        "bilde": "GourmetGrillTruffle.png",
+        "pris": "125,-",
+        "beskrivelse": "Prøv vår nye Gourmet burger med deilig truffle mayo: Gourmet Grill Truffle! Burgeren består av storfekjøtt av 100% norsk storfe, frisk ruccola og frisee salat, nydelig syltet rødløk, bacon, 2 skiver cheddar ost og himmelsk truffle mayo på begge brødene. Denne kan du ikke gå glipp av."
+    },
+    "Bacon King": {
+        "navn": "Bacon King",
+        "kategori": "Hamburger",
+        "bilde": "BaconKing.png",
+        "pris": "107,-",
+        "beskrivelse": "Er du sulten og glad i kjøtt? Da må du prøve vår nye Bacon King med 2 store kjøtt, 4 skiver ost, 6 baconskiver og toppet med majones og ketchup. Naaamm!"
+
+    },
+    "Cheeseburger": {
+        "navn": "Cheeseburger",
+        "kategori": "Hamburger",
+        "bilde": "Cheeseburger.png",
+        "pris": "20,-",
+        "beskrivelse": "Liker du vår hamburger? Liker du ost? Da liker du også vår Cheeseburger. Med samme ingredienser som vår populære Hamburger – bare med ost, naturligvis."
+        
+    },
+    "Double Cheeseburger": {
+        "navn": "Double Cheeseburger",
+        "kategori": "Hamburger",
+        "bilde": "DoubleCheeseburger.png",
+        "pris": "45,-",
+        "beskrivelse": "Hvis en enkel Cheeseburger ikke er nok, og du vil ha mer kjøtt og ost. Unn deg en Double Cheeseburger. For hvis en Cheeseburger smaker godt, smaker en Double Cheeseburger dobbelt så godt."
+    },
+    "Whopper Cheese": {
+        "navn": "Whopper Cheese",
+        "kategori": "Hamburger",
+        "bilde": "WhopperCheese.png",
+        "pris": "77,-",
+        "beskrivelse": "Noen kaller denne for burgernes konge. Vi kaller den kort og godt: Den ekte varen. En 100 % storfeklassiker med 113 gram (før tilberedelse) rent storfekjøtt og deilig cheddarost - med dressing og friske grønnsaker."
+
+
+    },
+
+    "Crispy Chicken": {
+        "navn": "Crispy Chicken",
+        "kategori": "Kyllingburger",
+        "bilde": "CrispyChicken.png",
+        "pris": "30,-",
+        "beskrivelse": "Liker du en sprø kyllingeburger, er det Crispy Chicken du skal velge. Den frityrstekte kyllingen og den sprø salaten gir et godt knas, og man kan fort bli avhengig. Nå er du advart!"
+    },
+    "Cheesy Cheese Long Chicken": {
+        "navn": "Cheesy Cheese Long Chicken",
+        "kategori": "Kyllingburger",
+        "bilde": "CheesyCheeseLongChicken.png",
+        "pris": "78,-",
+        "beskrivelse": "Hva er bedre enn ost? enda mer ost! Nyt en herlig Cheesy Cheese Chicken med fritert kylling patty, nydelig ostesaus, ruccola og frisee salat, fersk tomat og 2 skiver deilig chaddar ost."
+    },
+    "Smokey Crispy Chicken": {
+        "navn": "Smokey Crispy Chicken",
+        "kategori": "Kyllingburger",
+        "bilde": "SmokeyCrispyChicken.png",
+        "pris": "30,-",
+        "beskrivelse": "Crispy Chicken er en klar favoritt blant mange, og nå får du den også i en Smokey utgave! Kombinasjonen med sprø fritert kylling, knasende salat og smokey mayo er superdigg! Kun for en begrenset periode, så grip sjansen nå!"
+    },
+    "Long Chicken": {
+        "navn": "Long Chicken",
+        "kategori": "Kyllingburger",
+        "bilde": "LongChicken.png",
+        "pris": "69,-",
+        "beskrivelse": "Fritert kyllingbryst, salat, majones og brød – en burger for deg som gjerne vil ha kylling uten alt for mye annet, som kan forstyrre smaksoplevelsen. Plain and simple."
+    },
+    "King Fries": {
+        "navn": "King Fries",
+        "kategori": "Snacks",
+        "bilde": "KingFries.png",
+        "pris": "36,-",
+        "beskrivelse": "King Fries trenger neppe en bedre forklaring. Vi vil til gjengjeld si; hvis ikke du digger denne sprø og varme potetklassikeren, som nærmest er selvskreven til enhver meny, så vil vi gjerne ha en forklaring!"
+    },
+    "Løkringer": {
+        "navn": "Løkringer",
+        "kategori": "Snacks",
+        "bilde": "Løkringer.png",
+        "pris": "41,-",
+        "beskrivelse": "Møt våre fristende, frityrstekte pommes frites-rivaler. Mens vår vanlige løk gir oss tårer i øynene, gir våre Onion Rings oss vann i munnen. Advarsel: Har du først blitt hekta, er der ingen vei tilbake!"
+    },
+    "Chicken Nuggets": {
+        "navn": "Chicken Nuggets (9 stk)",
+        "kategori": "Snacks",
+        "bilde": "ChickenNuggets.png",
+        "pris": "79,-",
+        "beskrivelse": "Deilig frityrstekte kyllingbiter som er skapt for å dyppe i din favorittdip. Og vips, så er de borte, èn etter èn. Heldigvis er det mer der de kommer fra..."
+    },
+    "Chili Cheese": {
+        "navn": "Chili Cheese",
+        "kategori": "Snacks",
+        "bilde": "ChiliCheese.png",
+        "pris": "30,-",
+        "beskrivelse": "Vi vet ikke hvem som skapte disse spicy, varme, frityrstekte herlighetene, fylt med flytende ost. Men vedkommende er ikke helt gal, bare gal etter ost!"
+    },
+    "Majones Dip": {
+        "navn": "Majones Dip",
+        "kategori": "Dip",
+        "bilde": "MajonesDip.png",
+        "pris": "7,-",
+        "beskrivelse": "Gi dine King Fries, Løkringer - eller hva som helst - en touch med din yndlings-Dipsaus. Velg mellom BBQ, Garlic, Hot Cheese, Chili Bearnaise, Majones og Sweet & Sour"
+    },
+    "Hot Cheese Dip": {
+        "navn": "Hot Cheese Dip",
+        "kategori": "Dip",
+        "bilde": "HotCheeseDip.png",
+        "pris": "7,-",
+        "beskrivelse": "Gi dine King Fries, Løkringer - eller hva som helst - en touch med din yndlings-Dipsaus. Velg mellom BBQ, Garlic, Hot Cheese, Chili Bearnaise, Majones og Sweet & Sour"
+    },
+    "Garlic Dip": {
+        "navn": "Garlic Dip",
+        "kategori": "Dip",
+        "bilde": "GarlicDip.png",
+        "pris": "7,-",
+        "beskrivelse": "Gi dine King Fries, Løkringer - eller hva som helst - en touch med din yndlings-Dipsaus. Velg mellom BBQ, Garlic, Hot Cheese, Chili Bearnaise, Majones og Sweet & Sour"
+    },
+    "Sweet & Sour Dip": {
+        "navn": "Sweet & Sour Dip",
+        "kategori": "Dip",
+        "bilde": "Sweet&SourDip.png",
+        "pris": "7,-",
+        "beskrivelse": "Gi dine King Fries, Løkringer - eller hva som helst - en touch med din yndlings-Dipsaus. Velg mellom BBQ, Garlic, Hot Cheese, Chili Bearnaise, Majones og Sweet & Sour"
+    },
+    "BBQ Dip": {
+        "navn": "BBQ Dip",
+        "kategori": "Dip",
+        "bilde": "BbqDip.png",
+        "pris": "7,-",
+        "beskrivelse": "Gi dine King Fries, Løkringer - eller hva som helst - en touch med din yndlings-Dipsaus. Velg mellom BBQ, Garlic, Hot Cheese, Chili Bearnaise, Majones og Sweet & Sour"
+    },
+
+
+    "Coca Cola": {
+        "navn": "Coca Cola",
+        "kategori": "Brus",
+        "bilde": "CocaCola.png",
+        "pris": "34,-",
+        "beskrivelse": "Ahh ... Coca-Cola. Trenger vi å si noe mer? Denne klassikeren snakker for seg selv. Du trenger bare å velge størrelse."
+    },
+    "Coca Cola uten sukker": {
+        "navn": "Coca Cola uten sukker",
+        "kategori": "Brus",
+        "bilde": "CocaColaUtenSukker.png",
+        "pris": "34,-",
+        "beskrivelse": "Vi har noen som mener at Coca-Cola og Coca-Cola uten sukker, bare er to sider av samme sak. Og så har vi dem som merker stor forskjell på de ulike variantene. Hvilken av produktene sverger du til?"
+    },
+    "Fanta": {
+        "navn": "Fanta",
+        "kategori": "Brus",
+        "bilde": "Fanta.png",
+        "pris": "34,-",
+        "beskrivelse": "Fantastiske Fanta! Sprudlende, frisk og fruktig – og en god motspiller til det salte måltidet. Hvor mye klarer du å drikke?"
+    },
+    "Sprite": {
+        "navn": "Sprite",
+        "kategori": "Brus",
+        "bilde": "Sprite.png",
+        "pris": "34,-",
+        "beskrivelse": "Sprite er smaken av sitron og lime i en fin og frisk forening. Smaker sprudlende godt og slukker tørsten."
+    },
+    "Fanta Exotic": {
+        "navn": "Fanta Exotic",
+        "kategori": "Brus",
+        "bilde": "FantaExotic.png",
+        "pris": "34,-",
+        "beskrivelse": "FFantastiske Fanta - med smak av tropiske frukter! Sprudlende, frisk og fruktig."
+    },
+    "Sjokolade Milkshake": {
+        "navn": "Sjokolade Milkshake",
+        "kategori": "Milkshake",
+        "bilde": "SjokoladeMilkshake.png",
+        "pris": "34,-",
+        "beskrivelse": "Oppfinneren av milkshake fortjener å bli tildelt en... milkshake! Vi kan ikke tenke oss noe bedre enn en milkshake. Velg mellom jordbær, banan, vanilje og sjokolade. Kan nytes til maten, som snack eller til dessert."
+    },
+    "Jordbær Milkshake": {
+        "navn": "Jordbær Milkshake",
+        "kategori": "Milkshake",
+        "bilde": "JordbærMilkshake.png",
+        "pris": "34,-",
+        "beskrivelse": "Oppfinneren av milkshake fortjener å bli tildelt en... milkshake! Vi kan ikke tenke oss noe bedre enn en milkshake. Velg mellom jordbær, banan, vanilje og sjokolade. Kan nytes til maten, som snack eller til dessert."
+    },
+    "Banan Milkshake": {
+        "navn": "Banan Milkshake",
+        "kategori": "Milkshake",
+        "bilde": "BananMilkshake.png",
+        "pris": "34,-",
+        "beskrivelse": "Oppfinneren av milkshake fortjener å bli tildelt en... milkshake! Vi kan ikke tenke oss noe bedre enn en milkshake. Velg mellom jordbær, banan, vanilje og sjokolade. Kan nytes til maten, som snack eller til dessert."
+    },
+    "Vanilje Milkshake": {
+        "navn": "Vanilje Milkshake",
+        "kategori": "Milkshake",
+        "bilde": "VaniljeMilkshake.png",
+        "pris": "34,-",
+        "beskrivelse": "Oppfinneren av milkshake fortjener å bli tildelt en... milkshake! Vi kan ikke tenke oss noe bedre enn en milkshake. Velg mellom jordbær, banan, vanilje og sjokolade. Kan nytes til maten, som snack eller til dessert."
+    }
+
+
+
+    
+}
+
+
+
+
+
+

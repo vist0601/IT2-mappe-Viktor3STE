@@ -1,0 +1,28 @@
+#gif{
+    width: 100%;
+    
+}
+
+#gridhjemlevering{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+#gridhjemlevering p{
+    font-size: 25px;
+    
+}
+
+#gridbud img{
+    width: 100%;
+}
+
+#gridbud{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    padding: 25px;
+}

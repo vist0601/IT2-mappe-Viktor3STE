@@ -1,0 +1,33 @@
+{% extends "mal.html" %}
+
+
+{% block innhold %}
+
+<a href="/meny">
+    <img id="pil" src='{{url_for("static", filename="./bilder/diverse/pil.png")}}' alt="">
+</a>
+
+<div id="menyengrid">
+    <img src='{{url_for("static", filename = "bilder/meny/" + menyen["bilde"])}}'>
+    <div id="menyenhoyre">
+        <h1>{{menyen["navn"]}}</h1>
+        <p id="beskivelse">{{menyen["beskrivelse"]}}</p>
+        <div>
+            <p id="pris">{{menyen["pris"]}}</p>
+            <form action="/menyen/{{id}}/legg-til">
+                <button type="submit">Legg i handlekurv</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

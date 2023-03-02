@@ -1,0 +1,60 @@
+#hjem{
+    margin: 0%;
+}
+
+#banner1{
+    width: 100%;
+}
+
+#gridforside{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+    gap: 30px;
+
+}
+
+.gridboksforside{
+    text-align: center;
+    
+    
+    padding: 20px;
+    border-radius: 12px;
+    
+    
+}
+
+.gridboksforside p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.gridboksforside h2{
+    font-size: 40px;
+}
+
+.gridboksforside img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.gridboksforside button{
+    
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(250, 112, 0);
+        
+        
+}
+    
+
+#banner2{
+    width: 100%;
+}
+

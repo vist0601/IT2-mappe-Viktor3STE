@@ -1,0 +1,48 @@
+#pil{
+    width: 50px;
+}
+
+#menyengrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+#menyengrid img{
+    width: 100%;
+  
+}
+
+#menyengrid h1{
+    font-size: 50px;
+}
+
+#beskivelse{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#pris{
+    font-size: 30px;
+}
+
+#menyengrid button{
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(250, 112, 0);
+    
+}
+
+#menyengrid button:hover{
+    background-color: rgb(251, 191, 119);
+}
+
+#menyenhoyre{
+    margin-top: 75px;
+}

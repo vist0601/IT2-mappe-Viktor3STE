@@ -1,0 +1,18 @@
+#gridomoss{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#gridomoss iframe{
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+#tekstomoss p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#gridomoss h2{
+    font-size: 30px;
+}

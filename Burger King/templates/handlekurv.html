@@ -1,0 +1,47 @@
+{% extends "mal.html" %}
+
+
+{% block innhold %}
+
+    <h1 class="overskrift"><span>Handlekurv</span></h1>
+
+
+
+    
+    {% for handlekurven in handlekurv %}
+        
+        <div id="handlekurvrad">
+
+            <div id="handlekurvvenstre">
+                
+    
+                <form action="/handlekurv/slett/{{handlekurven}}">
+                    <button type="submit">X</button>
+                </form>
+                <a href="/menyen/{{handlekurven}}">
+                    <p id="handlekurvnavn"> {{meny[handlekurven]["navn"]}}</p>
+
+                </a>
+    
+                <img src='{{url_for("static", filename = "bilder/meny/" + meny[handlekurven]["bilde"])}}' alt="">
+                
+    
+            </div>
+    
+            
+            <p> {{meny[handlekurven]["pris"]}}</p>
+    
+
+        </div>
+
+
+
+    {% endfor %}
+
+    <button id="betalknapp">
+        <img src='{{url_for("static", filename="./bilder/diverse/handlekurv.png")}}' alt="">
+        <p>Gå til kassen</p>
+    </button>
+    
+
+{% endblock %}

@@ -1,0 +1,98 @@
+#meny{
+    margin: 20px;
+}
+
+#kategorier{
+    display: flex;
+    margin-top: 30px;
+}
+
+#kategorier button{
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-right: 5px;
+    
+}
+
+    
+
+#knappalle{
+    background-color: brown;
+    
+}
+#knappalle:hover {
+    background-color: rgb(200, 157, 124);
+
+}
+.knappburger{
+    background-color: red;
+    
+}
+.knappburger:hover{
+    background-color: rgb(255, 127, 127);
+}
+.knapptilbehør{
+    background-color: rgb(250, 112, 0);
+
+}
+.knapptilbehør:hover{
+    background-color: rgb(251, 191, 119);
+}
+.knappdrikke{
+    background-color: rgb(255, 204, 0);
+
+}
+.knappdrikke:hover{
+    background-color: rgb(235, 195, 106);
+}
+
+#menygrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+#menygrid a{
+    background-color: rgb(250, 112, 0);
+    padding: 30px;
+}
+
+#menygrid img{
+    width: 100%;
+}
+
+#gridbokser{
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+#gridbokser p{
+    color: white;
+}
+
+#gridtekst{
+    text-align: center;
+    text-decoration-color: white;
+}
+
+#gridnavn{
+    text-decoration: underline;
+}
+
+#gridnavn:hover{
+    color: brown;
+}
+
+#gridtekst p{
+    font-size: 30px;
+}
+
+
+

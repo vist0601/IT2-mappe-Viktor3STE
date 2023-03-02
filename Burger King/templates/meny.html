@@ -1,0 +1,62 @@
+{% extends "mal.html" %}
+
+
+{% block innhold %}
+
+<div id="meny">
+
+    <h1 class="overskrift" id="menyoverskrift"><span>Menyen vår</span></h1>
+    
+    <div id="kategorier">
+        <a href="/meny">
+            <button id="knappalle">Hele Menyen (28)</button>
+        </a>
+        <form action="/meny/Hamburger">
+            <button class="knappburger" type="submit">Hamburgere (6)</button>
+        </form>
+        <form action="/meny/Kyllingburger">
+            <button class="knappburger" type="submit">Kyllingburgere (4)</button>
+        </form>
+        <form action="/meny/Snacks">
+            <button class="knapptilbehør" type="submit">Tilbehør (4)</button>
+        </form>
+        <form action="/meny/Dip">
+            <button class="knapptilbehør" type="submit">Dip (5)</button>
+        </form>
+        <form action="/meny/Brus">
+            <button class="knappdrikke" type="submit">Brus (5)</button>
+        </form>
+        <form action="/meny/Milkshake">
+            <button class="knappdrikke" type="submit">Milkshake (4)</button>
+        </form>
+    
+    </div>
+    
+    <div id="menygrid">
+        {% for id, menyen in meny.items() %}
+            
+            
+            <a id="gridbokser" href="/menyen/{{id}}">
+                <img src='{{url_for("static", filename = "bilder/meny/" + menyen["bilde"])}}' alt="">
+                <div id="gridtekst">
+                    <p id="gridnavn">{{menyen["navn"]}}</p>
+                    <p>{{menyen["pris"]}}</p>
+                    
+                </div>
+                        
+            </a>
+        {% endfor %}
+    </div>
+
+        
+    
+
+        
+</div>
+
+
+
+
+
+
+{% endblock %}

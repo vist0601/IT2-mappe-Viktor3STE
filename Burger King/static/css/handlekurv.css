@@ -1,0 +1,87 @@
+#handlekurvrad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(250, 112, 0);
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-radius: 12px;
+    
+}
+
+#handlekurvrad button{
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+#handlekurvrad button:hover{
+    color: rgb(255, 127, 127);
+}
+
+#handlekurvrad p{
+    color: white;
+    font-size: 40px;
+}
+
+#handlekurvvenstre{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+#handlekurvvenstre img{
+    width: 225px;
+}
+
+#handlekurvnavn{
+    margin-left: 15px;
+    
+}
+
+#handlekurvrad a{
+    text-decoration: none;
+    
+    
+}
+
+#handlekurvnavn:hover{
+    color: brown;
+}
+
+#betalknapp{
+    float: right;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+#betalknapp img{
+    width: 40px;
+}
+
+#betalknapp:hover{
+    background-color: rgb(60, 179, 113);
+}
+
+
+

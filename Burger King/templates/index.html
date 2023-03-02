@@ -1,0 +1,50 @@
+{% extends "mal.html" %}
+
+
+
+{% block innhold %}
+<style>
+    main{
+        margin: 0%;
+    }
+
+</style>
+
+<div id="hjem">
+    <img id="banner1" src='{{url_for("static", filename="./bilder/diverse/CheesyCheeseForside.png")}}' alt="">
+
+    <div id="gridforside">
+        <div class="gridboksforside">
+            
+            <img src='{{url_for("static", filename="./bilder/diverse/gridforside1.webp")}}' alt="">
+            <h2>LAGES PÅ BESTILLING</h2>
+            <p>Alle våre burgere lages på bestilling. Rykende ferskt!</p>
+            <a href="/meny">
+                <button>Vår meny</button>
+            </a>
+
+        </div>
+
+        <div class="gridboksforside">
+            <img src='{{url_for("static", filename="./bilder/diverse/gridforside2.jpeg")}}' alt="">
+            <h2>OVER HELE LANDET</h2>
+            <p>Burger King har restauranter i hele landet. Velkommen!</p>
+            <a href="/omoss">
+                <button>Din nærmeste restaurant</button>
+            </a>
+
+
+        </div>
+
+    </div>
+
+    <img id="banner2" src='{{url_for("static", filename="./bilder/diverse/kongedeals.jpeg")}}' alt="">
+
+    
+
+</div>
+
+
+
+
+{% endblock %}

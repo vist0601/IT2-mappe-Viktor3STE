@@ -1,0 +1,41 @@
+{% extends "mal.html" %}
+
+
+{% block innhold %}
+
+<div id="gridhjemlevering">
+
+    <div>
+        <h1 class="overskrift"><span>BK Delivery</span></h1>
+        <p>Bestill mat hjem til deg ved å trykke på en av våre samarbeidspartere nedenfor:</p>
+        
+    </div>
+
+    <img id="gif" src='{{url_for("static", filename="./bilder/diverse/hjemlevering.gif")}}' alt="">
+
+</div>
+    
+<div id="gridbud">
+    
+    
+    <a href="https://www.foodora.no/chain/cy7ru/burger-king">
+        <img src='{{url_for("static", filename="./bilder/diverse/foodora.png")}}' alt="">
+    </a>
+    <a href="https://www.just-eat.no/burger-king">
+        <img src='{{url_for("static", filename="./bilder/diverse/justeat.png")}}' alt="">
+    </a>
+    <a href="https://wolt.com/en/nor/oslo/article/burger-king">
+        <img src='{{url_for("static", filename="./bilder/diverse/wolt.jpeg")}}' alt="">
+    </a>
+    <a href="https://www.delivia.no/burger-king">
+        <img src='{{url_for("static", filename="./bilder/diverse/delivia.png")}}' alt="">
+    </a>
+
+
+
+</div>
+
+
+
+
+{% endblock %}

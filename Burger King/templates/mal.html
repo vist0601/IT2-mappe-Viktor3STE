@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link rel="stylesheet" href='{{url_for("static", filename="./css/hjem.css")}}'>
+    <link rel="stylesheet" href='{{url_for("static", filename="./css/mal.css")}}'>
+    <link rel="stylesheet" href='{{url_for("static", filename="./css/meny.css")}}'>
+    <link rel="stylesheet" href='{{url_for("static", filename="./css/menyen.css")}}'>
+    <link rel="stylesheet" href='{{url_for("static", filename="./css/omoss.css")}}'>
+    <link rel="stylesheet" href='{{url_for("static", filename="./css/handlekurv.css")}}'>
+    <link rel="stylesheet" href='{{url_for("static", filename="./css/hjemlevering.css")}}'>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="navvenstre">
+                <a href="/">
+                    <img src='{{url_for("static", filename="./bilder/diverse/logo.png")}}' alt="">
+                </a>
+                <div id="navmidten">
+                    <a href="/meny">MENY</a>
+                    <a href="/hjemlevering">HJEMLEVERING</a>
+                    <a href="/omoss">OM OSS</a>
+    
+                </div>
+            </div>
+            <div id="navhoyre">
+                <a href="/handlekurv">
+                    <img src='{{url_for("static", filename="./bilder/diverse/handlekurv.png")}}' alt="">
+                </a>
+            </div>
+            
+                
+                
+        </nav>
+
+    </header>
+    <main>
+        {% block innhold %}
+
+
+        {% endblock %}
+
+    </main>
+    <footer>
+        <div id="footer1">
+            <div>
+                <h1>BK Sandvika</h1>
+                <p>Sandvika Storsenter</p>
+                <p>Sandviksveien 184</p>
+                <p>Tlf: 67 52 01 49</p>
+            </div>
+
+            <div>
+                <h1>Åpningstider</h1>
+                <p>Mandag-fredag: 10-21</p>
+                <p>Lørdag: 9-19:30</p>
+                <p>Søndag: 12-19</p>
+            </div>
+
+            <div>
+                <h1>Følg oss</h1>
+                <div id="flexfolgoss">
+                    <a href="https://www.instagram.com/burgerking/">
+                        <img src='{{url_for("static", filename="./bilder/diverse/instagram.png")}}' alt="">
+                    </a>
+                    <a href="https://www.facebook.com/burgerking">
+                        <img src='{{url_for("static", filename="./bilder/diverse/facebook.png")}}' alt="">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC23ZqC2LTzl7dfOi6EmwJhg">
+                        <img src='{{url_for("static", filename="./bilder/diverse/youtube.png")}}' alt="">
+                    </a>
+                    
+                </div>
+            </div>
+                    
+        </div>
+
+        <div id="footer2">
+            <p>TM & Copyright 2020 Burger King Corporation. Alle rettigheter forbeholdes.</p>
+        </div>
+    
+</body>
+</html>
