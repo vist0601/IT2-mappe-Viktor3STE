@@ -10,7 +10,6 @@ meny = json.load(fil_meny)
 fil_meny.close()
 
 
-#handlekurv = []
 fil_handlekurv = open("handlekurv.json")
 handlekurv = json.load(fil_handlekurv)
 fil_handlekurv.close()
