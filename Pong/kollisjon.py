@@ -25,3 +25,11 @@ class Kollisjon:
         else:
             return False
 
+    def ball_sidevegger(self, ball):
+        if ball._posx - ball._radius <= 0:
+            return True
+        if ball._posx + ball._radius >= 900:
+            return True
+        else:
+            return False
+

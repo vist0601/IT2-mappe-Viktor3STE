@@ -22,6 +22,8 @@ class Racket:
         elif self._tilstand == "ned":
             self._posy += 4
 
+            
+
     def racket_kollisjon(self):
         if self._posy <= 0:
             self._posy = 0

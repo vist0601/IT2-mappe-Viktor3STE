@@ -14,6 +14,8 @@ fil_handlekurv = open("handlekurv.json")
 handlekurv = json.load(fil_handlekurv)
 fil_handlekurv.close()
 
+
+
 def skriv_handlekurv():
     fil_handlekurv = open("handlekurv.json", "w")
     json.dump(handlekurv, fil_handlekurv)

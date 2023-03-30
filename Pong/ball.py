@@ -17,13 +17,17 @@ class Ball:
     def startfart(self):
         self._xfart = 4
         self._yfart = 1.5
+        
+        
 
     def beveg(self):
         self._posx += self._xfart
         self._posy += self._yfart
 
     def racket_kollisjon(self):
-        self._xfart = -self._xfart
+        self._xfart = -self._xfart * 1.1
+        self._yfart * 1.1
+
 
     def vegg_kollisjon(self):
         self._yfart = -self._yfart
